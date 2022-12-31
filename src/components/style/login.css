@@ -1,0 +1,64 @@
+.maindiv {
+    height:  100vh 
+}
+
+.borderdiv {
+    display:  grid ;
+    gap:  10px ;
+    max-width:  600px ;
+    margin:  100px auto ;
+    background-color:  #ffffff ;
+    border-radius:  10px ;
+    /* border:3px solid red */
+}
+
+.inputdiv {
+    display:  grid ;
+    justify-content:  center ;
+    /* border:3px solid red */
+
+}
+
+.inputsx {
+    background-color:  #E8F0FE ;
+    width:  400px ;
+    height:  35px ;
+    border-radius:  5px ;
+    padding:  5px 20px ;
+    /* border:3px solid red */
+}
+
+.loginbutton {
+    background-color:  black ;
+    border-radius:  5px ;
+    padding:  5px 10px ;
+    color:  white ;
+    font-weight: bold;
+    width:  fit-content ;
+    margin:  auto ;
+    /* border:3px solid red */
+}
+
+@media only screen and (max-width: 500px) {
+    .inputsx {
+        background-color:  #E8F0FE ;
+        width:  300px ;
+        height:  35px ;
+        border-radius:  5px ;
+        padding:  5px 20px ;
+        /* border:3px solid red */
+    }
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+    .inputsx {
+        background-color:  #E8F0FE ;
+        width:  200px ;
+        height:  30px ;
+        border-radius:  5px ;
+        padding:  5px 20px ;
+        /* border:3px solid red */
+    }
+    
+  }
